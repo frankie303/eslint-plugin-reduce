@@ -1,0 +1,50 @@
+{
+  "name": "eslint-plugin-reduce",
+  "version": "0.1.0",
+  "description": "ESLint plugin that flags spread syntax inside Array.prototype.reduce callbacks, which can cause significant performance issues.",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "reduce",
+    "spread",
+    "performance",
+    "quadratic",
+    "lint",
+    "linter",
+    "array",
+    "optimization"
+  ],
+  "author": "Mert Ciflikli",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankie303/eslint-plugin-reduce.git"
+  },
+  "bugs": {
+    "url": "https://github.com/frankie303/eslint-plugin-reduce/issues"
+  },
+  "homepage": "https://github.com/frankie303/eslint-plugin-reduce#readme",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "rules"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "prepublishOnly": "npm test"
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0 || ^10.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^8.70.1",
+    "eslint": "^10.0.0"
+  },
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  }
+}

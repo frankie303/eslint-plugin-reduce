@@ -1,0 +1,13 @@
+{
+  "name": "eslint-example-no-spread-in-reduce",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Minimal ESLint flat-config project using eslint-plugin-reduce.",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint"
+  },
+  "devDependencies": {
+    "eslint": "^10.0.0"
+  }
+}

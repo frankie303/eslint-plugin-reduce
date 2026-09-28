@@ -1,0 +1,6 @@
+{
+  "jsPlugins": ["eslint-plugin-reduce"],
+  "rules": {
+    "reduce/no-spread-in-reduce": "warn"
+  }
+}

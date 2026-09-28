@@ -1,0 +1,13 @@
+{
+  "name": "oxlint-example-no-spread-in-reduce",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Minimal Oxlint project using eslint-plugin-reduce.",
+  "scripts": {
+    "lint": "oxlint"
+  },
+  "devDependencies": {
+    "eslint-plugin-reduce": "file:../..",
+    "oxlint": "^1.85.0"
+  }
+}
